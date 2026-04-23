@@ -23,6 +23,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://portfolio-mu-six-30.vercel.app"),
   title: "Azhar Ud Din — Full-Stack Developer",
   description:
     "Full-stack developer building considered web applications. Python, TypeScript, React, Next.js, D3.",
@@ -30,7 +31,15 @@ export const metadata: Metadata = {
     title: "Azhar Ud Din — Full-Stack Developer",
     description:
       "Full-stack developer building considered web applications. Python, TypeScript, React, Next.js, D3.",
+    url: "https://portfolio-mu-six-30.vercel.app",
+    siteName: "Azhar Ud Din",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Azhar Ud Din — Full-Stack Developer",
+    description:
+      "Full-stack developer building considered web applications. Python, TypeScript, React, Next.js, D3.",
   },
 };
 
