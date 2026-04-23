@@ -5,9 +5,9 @@ import { SectionHeader } from "./SectionHeader";
 import { ease, viewportOnce } from "@/lib/motion";
 
 const facts = [
-  { k: "Years coding", v: "5+" },
-  { k: "Primary stack", v: "Python · TS · React" },
-  { k: "Focus", v: "Full-stack · Data-viz" },
+  { k: "Currently", v: "Full-Stack Dev · Datum Labs" },
+  { k: "Primary stack", v: "TS · React · SvelteKit · Python" },
+  { k: "Data layer", v: "Postgres · Drizzle" },
   { k: "Availability", v: "Open to projects" },
 ];
 
@@ -39,8 +39,9 @@ export function About() {
               I work across the stack — designing APIs, shaping interfaces,
               and wiring the two together so the end product feels{" "}
               <span className="text-fg">fast, readable, and considered</span>.
-              Most of my day-to-day is Python on the server, TypeScript on the
-              client, and whatever glue is needed in between.
+              Currently building as a full-stack developer at{" "}
+              <span className="text-fg">Datum Labs</span>, where the day-to-day
+              runs on TypeScript, React, SvelteKit, Postgres, and Drizzle.
             </p>
             <p>
               I&apos;m drawn to problems where the UI has to communicate
